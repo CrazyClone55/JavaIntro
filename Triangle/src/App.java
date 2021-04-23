@@ -15,7 +15,7 @@ public class App {
 
         for (int i = width / 2 + 1; i > 0; i--) {
             output = "*".repeat(length);
-            //System.out.print(length);
+            System.out.print(length);
             System.out.println(output);
             length++;
         }
@@ -23,7 +23,7 @@ public class App {
         for (int i = width / 2; i > 0; i--) {
             length = i;
             output = "*".repeat(length);
-            //System.out.print(length);
+            System.out.print(length);
             System.out.println(output);
         }
     }
