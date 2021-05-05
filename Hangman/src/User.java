@@ -1,6 +1,7 @@
 public class User {
     String name;
     int score;
+    boolean guesser;
 
     public User(String name) {
         this.name = name;
@@ -16,10 +17,22 @@ public class User {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public int getScore() {
-        return score;
+        return this.score;
+    }
+
+    public void addPoint() {
+        this.score++;
+    }
+
+    public void setGuesser(boolean x) {
+        this.guesser = x;
+    }
+
+    public boolean getGuesser() {
+        return this.guesser;
     }
 }
